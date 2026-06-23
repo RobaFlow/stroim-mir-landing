@@ -114,3 +114,11 @@ h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.15;color:#fff}
   .founder img{max-width:300px}
   .ph-nav{display:none}
 }
+
+/* ===== Шапка как на главной странице (1:1) ===== */
+.header{position:relative;z-index:20;display:flex;align-items:center;padding:15px 5%;max-width:1600px;margin:0 auto;width:90%;border-bottom:1px solid rgba(255,255,255,0.05)}
+.project-label{border:1px solid rgba(255,255,255,0.4);border-radius:40px;padding:10px 22px;font-size:13px;text-transform:uppercase;letter-spacing:1px;font-weight:700;color:#E5E7EB;flex-shrink:0;margin-right:50px}
+.nav-menu{display:flex;justify-content:space-between;flex-grow:1;align-items:center}
+.nav-link{color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:600;letter-spacing:.5px;transition:color .3s ease}
+.nav-link:hover{color:#D4B572}
+@media(max-width:900px){.header{flex-wrap:wrap;padding:14px 20px;width:100%}.project-label{margin-right:0;margin-bottom:12px}.nav-menu{flex-wrap:wrap;gap:14px;justify-content:flex-start}.nav-link{font-size:14px}}
